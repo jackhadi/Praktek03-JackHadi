@@ -4,9 +4,9 @@ public class aksi {
     public static void main(String[] args) {
         Handphone e = new Handphone();
          
-        e.jenis="Andorid";
-        e.merk="Meizu M5S";
-        e.harga=10000;
+        e.setJenis("Iphone");
+        e.setMerk("Iphone 7");
+        e.setHarga(9000);
         
         e.cetakInfo();
     }

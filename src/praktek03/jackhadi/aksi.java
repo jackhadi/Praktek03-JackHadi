@@ -16,6 +16,16 @@ public class aksi {
          System.out.println(e.getMerk());
          System.out.println("Harganya \t: ");
          System.out.println(e.getHarga());
+         
+         IphoneIOS wk = new IphoneIOS();
+         wk.setJenis("IOS 5");
+         wk.setMerk("IPHONE X");
+         wk.setHarga(1000);
+         wk.setJenisIphone("IPHONE X GOLDEN");
+         wk.cetakInfo();
+         
+         System.out.println("Jenis \t: "+wk.getJenisIphone());
+         wk.iniIphone();
     }
     
 }
